@@ -1,6 +1,8 @@
 pages:
   stage: deploy
   image: alpine:latest
+  script:
+    - /bin/true
   artifacts:
     paths:
       - public
