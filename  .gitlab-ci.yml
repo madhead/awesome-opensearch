@@ -1,0 +1,8 @@
+pages:
+  stage: deploy
+  image: alpine:latest
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
