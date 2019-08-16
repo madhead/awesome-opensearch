@@ -6,6 +6,9 @@ pages:
   artifacts:
     paths:
       - public
+  environment:
+    name: staging
+    url: https://gitlab.com/madhead/awesome-opensearch
   only:
     - master
 
@@ -32,6 +35,6 @@ gh-pages:
     - ssh-agent -k
   environment:
     name: production
-    url: http://madhead.me/awesome-opensearch
+    url: https://github.com/madhead/awesome-opensearch
   only:
     - master

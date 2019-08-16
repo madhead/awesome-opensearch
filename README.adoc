@@ -1,5 +1,17 @@
 # awesome-opensearch
 
-A list of https://developer.mozilla.org/en-US/docs/Web/OpenSearch[OpenSearch] descriptors for sites who miss this awesome feature.
+A list of https://developer.mozilla.org/en-US/docs/Web/OpenSearch[OpenSearch] descriptors for sites who lack of this awesome feature.
 
-- https://madhead.github.io/awesome-opensearch/search.maven.org[Maven Central]
+## How to use
+
+1. Find a site you're looking for in the list below.
+1. If it is not in the list — submit a PR!
+1. Click the link.
+1. Select "Add Search Engine" in the "Page Actions" dropdown:
++
+image::howto.png[]
+
+## The list
+
+- https://madhead.github.io/awesome-opensearch/plugins.gradle.org[Gradle plugins] (plugins.gradle.org)
+- https://madhead.github.io/awesome-opensearch/search.maven.org[Maven Central] (search.maven.org)
