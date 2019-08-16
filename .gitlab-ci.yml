@@ -14,8 +14,6 @@ gh-pages:
   image:
     name: madhead/git:latest
     entrypoint: [""]
-  variables:
-    GIT_STRATEGY: none
   before_script:
     - git config --global user.name  'GitLab'
     - git config --global user.email '<>'
@@ -24,7 +22,6 @@ gh-pages:
     - eval $(ssh-agent -s)
     - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add - > /dev/null
   script:
-    - ls -la
     - cd public
     - git init
     - git checkout -b pages
