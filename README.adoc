@@ -15,5 +15,7 @@ image::howto.png[]
 
 ## The list
 
+- https://madhead.github.io/awesome-opensearch/deepl.com/en/ru[DeepL (en → ru)] (deepl.com)
+- https://madhead.github.io/awesome-opensearch/deepl.com/ru/en[DeepL (ru → en)] (deepl.com)
 - https://madhead.github.io/awesome-opensearch/plugins.gradle.org[Gradle plugins] (plugins.gradle.org)
 - https://madhead.github.io/awesome-opensearch/search.maven.org[Maven Central] (search.maven.org)
