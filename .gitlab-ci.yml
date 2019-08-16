@@ -8,3 +8,30 @@ pages:
       - public
   only:
     - master
+
+gh-pages:
+  stage: deploy
+  image: alpine/git:latest
+  variables:
+    GIT_STRATEGY: none
+  before_script:
+    - git config --global user.name  'GitLab'
+    - git config --global user.email '<>'
+    - mkdir ~/.ssh
+    - ssh-keyscan github.com >> ~/.ssh/known_hosts
+    - eval $(ssh-agent -s)
+    - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add - > /dev/null
+  script:
+    - cd public
+    - git init
+    - git checkout -b pages
+    - git remote add origin git@github.com:madhead/awesome-opensearch.git
+    - git add .
+    - git commit --allow-empty-message --message ''
+    - git push origin pages -f
+    - ssh-agent -k
+  environment:
+    name: production
+    url: http://madhead.me/awesome-opensearch
+  only:
+    - master
