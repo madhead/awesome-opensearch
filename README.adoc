@@ -21,3 +21,4 @@ image::howto.png[]
 - https://madhead.github.io/awesome-opensearch/plugins.gradle.org[Gradle plugins] (plugins.gradle.org)
 - https://madhead.github.io/awesome-opensearch/search.maven.org[Maven Central] (search.maven.org)
 - https://madhead.github.io/awesome-opensearch/npmjs.com[NPM] (npmjs.com)
+- https://madhead.github.io/awesome-opensearch/pornhub.com/video[Pornhub (video)] (pornhub.com)
