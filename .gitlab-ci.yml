@@ -11,7 +11,9 @@ pages:
 
 gh-pages:
   stage: deploy
-  image: alpine/git:latest
+  image:
+    name: madhead/git:latest
+    entrypoint: [""]
   variables:
     GIT_STRATEGY: none
   before_script:
