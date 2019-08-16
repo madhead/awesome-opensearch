@@ -24,11 +24,11 @@ gh-pages:
   script:
     - cd public
     - git init
-    - git checkout -b pages
+    - git checkout -b gh-pages
     - git remote add origin git@github.com:madhead/awesome-opensearch.git
     - git add .
     - git commit --allow-empty-message --message ''
-    - git push origin pages -f
+    - git push origin gh-pages -f
     - ssh-agent -k
   environment:
     name: production

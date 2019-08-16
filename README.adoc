@@ -1,3 +1,5 @@
 # awesome-opensearch
 
 A list of https://developer.mozilla.org/en-US/docs/Web/OpenSearch[OpenSearch] descriptors for sites who miss this awesome feature.
+
+- Maven Central
