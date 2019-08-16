@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+     <ShortName>Awesome Kotlin</ShortName>
+     <Description>Awesome Kotlin</Description>
+     <Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB6klEQVQ4jZXRP2iTQRjH8e/zJrQxxiQUYlAiikLqoAFXKS6FlBgdVBTqZJrSpV0kFBFBoUUQQVQUImj6ojgIUpyKGnRJQic3RWwdXKo0AbWVtMQO9zjkj29qJHrT3T33ebj7nagq3YbYHz0YM43IWaAP9A0qFzUdLUm3BjKz6APmgCObShuoDlr/gX+gDIMcBPJAD8jVv97gT6wJTffPA8iDhQNY8haodbyBPF2yQGc74foBYo3ZN/dmvHRml/UsEpt4790bX3f1mlXXtsk7l6+0sOQWDiOSbSwftz1hJR32ieosSNzR06hqJmhXbjXwc8APFDA6ZDkxyhxI3CC1h+Fjpug/tA5YInJjfGpqrA1DUkf7a6KqLSz1N1fv7ziZmdx3PgtYR78WlyM/y+5H4eO+mqvX08Ij0SqArIyEPar6Un4HlgzYlZLkFicQvQ3iDPoVxpzQ0f3V5oYbo9MidayqiaBdmQfQdPTutUvjG1W39+aaa4v54N1z4cXu+D09HTFtP/Y9FfosyE5Rhv12+UmzsJra7ghM8wHdmsD+1IYBLEH6ABR91wrUgRUKKnKqE65ncC5URGRAlTyQAWIiZJsYIRnMlaudcL1BKjQA8hrocRb+BQNYgZlKCXQQpQDUgC/AdXHJUDcM8AtmC9pYcgD3qwAAAABJRU5ErkJggg==</Image>
+     <Url type="text/html" template="https://kotlin.link/?q={searchTerms}"/>
+</OpenSearchDescription>
