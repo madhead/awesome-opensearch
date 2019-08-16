@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+     <ShortName>NPM</ShortName>
+     <Description>NPM</Description>
+     <Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgElEQVQ4jWM8zcDwn4ECwESJZgYGBgYWGINZSIiBy9CQKE3fzp9n+PvuHaoBXIaGDOp79hBlwE0XF4bPe/cyMDBQ0wu4wP2EBAYGBgYGHhsbBtGUFNINeLtwIZyNzQCKvTBqABUMYIRlJlxJGZbiWCUlGTi0tBgYGFCTMuOA50YAwYMgaTzFiPsAAAAASUVORK5CYII=</Image>
+     <Url type="text/html" template="https://www.npmjs.com/search?q={searchTerms}"/>
+</OpenSearchDescription>
