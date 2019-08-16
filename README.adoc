@@ -2,7 +2,7 @@
 
 A list of https://developer.mozilla.org/en-US/docs/Web/OpenSearch[OpenSearch] descriptors for sites who lack of this awesome feature.
 
->The OpenSearch description format lets a website describe a search engine for itself, so that a browser or other client application can use that search engine. OpenSearch is supported by (at least) Firefox, Edge, Internet Explorer, Safari, and Chrome.
+> The OpenSearch description format lets a website describe a search engine for itself, so that a browser or other client application can use that search engine. OpenSearch is supported by (at least) Firefox, Edge, Internet Explorer, Safari, and Chrome.
 
 ## How to use
 
