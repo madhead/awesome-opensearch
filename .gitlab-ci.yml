@@ -1,16 +1,59 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  image: openjdk:13
+  cache:
+    key: $CI_JOB_NAME
+    paths:
+      - .gradle/wrapper
+      - .gradle/caches
+  script:
+    - ./gradlew awesome-opensearch
+  artifacts:
+    name: $CI_COMMIT_SHA-$CI_JOB_NAME
+    paths:
+      - build
+    expire_in: 1 hour
+
+gradle-version:
+  stage: test
+  image: openjdk:13
+  script:
+    - gradle_version=$(./gradlew --version | sed -rn 's/^Gradle (.+)$/\1/p')
+    - latest_gradle_version=$(curl https://services.gradle.org/versions/current | python2 -c 'import json,sys;print json.load(sys.stdin)["version"]')
+    - echo $gradle_version
+    - echo $latest_gradle_version
+    - '[[ $gradle_version == $latest_gradle_version ]]'
+  dependencies: []
+  allow_failure: true
+
+copyright:
+  stage: test
+  image: bash:latest
+  script:
+    - copyright_year=$(sed -n 's/Copyright (c) \([[:digit:]]\{4\}\) madhead <siarhei.krukau@gmail.com>/\1/p' LICENSE)
+    - current_year=$(date +%Y)
+    - echo $copyright_year
+    - echo $current_year
+    - '[[ $copyright_year == $current_year ]]'
+  dependencies: []
+  allow_failure: true
+
 pages:
   stage: deploy
   image: alpine:latest
   script:
-    - /bin/true
+    - mv build public
   artifacts:
     paths:
       - public
   environment:
     name: staging
     url: https://gitlab.com/madhead/awesome-opensearch
-  only:
-    - master
 
 gh-pages:
   stage: deploy
@@ -25,6 +68,7 @@ gh-pages:
     - eval $(ssh-agent -s)
     - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add - > /dev/null
   script:
+    - mv build public
     - cd public
     - git init
     - git checkout -b gh-pages
@@ -38,3 +82,4 @@ gh-pages:
     url: https://github.com/madhead/awesome-opensearch
   only:
     - master
+  when: manual
