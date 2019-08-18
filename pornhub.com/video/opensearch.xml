@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+     <ShortName>Pornhub (video)</ShortName>
+     <Description>Pornhub (video)</Description>
+     <Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAEXRFWHRfcV9pY29PcmlnRGVwdGgAOBpBob4AAAG1SURBVDiNpdNBSFRRFAbg782MZhYDQ6YoEbVxYy3EgnYGFQRtKggk2kaEQataFYRQINEyoty1MdJthYsgoqBFtZisRQtXZmamDBKj2cxtcd8jHXA1Bx7n/vfdc879z/lvEh4KmrBcM8GbEyQbvsYTG8skm3FBHS3obAhaw0+UsI5lBBTRjiX8pWAHlSVujTNX4dci3V0MH+PIAKdHOLSPG+dR4MkLJj7w6AK7OhEmhJk7AkJrXug/GNcI725Gf6BHCFNCeCUMH417M7eF8FTIqZFPOU1e4mOZ8DjisZf09bC/A62R6p5S/NeSR51CRjlJGHvD16u8fR0PHe9jfoXn05ROxQZW12LBJMmamAbnEp59YqpM23buDTF0gmuTdBc5eThWev+F8uzGKaAeqNUZPcP1i1hEF+aZXebcAGN3sY37I1wZJ4QsQZ71WgSVVezEDyyk48PnOczGBNPf4t56Ld6ooEqpncuDDPbiO/5kc+BsP/178TtqY7CXhRWKbREn4YGgBbuxgkpKLKSq60gTbimkHGrptUPWFf8lvZT6fOqrWI0jjBQy2+pN1htwJrPUmn6N/wBRHY8++locYQAAAABJRU5ErkJggg==</Image>
+     <Url type="text/html" template="https://www.pornhub.com/video/search?search={searchTerms}"/>
+</OpenSearchDescription>

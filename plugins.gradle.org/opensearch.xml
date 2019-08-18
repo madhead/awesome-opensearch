@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+     <ShortName>Gradle plugins</ShortName>
+     <Description>Gradle plugins</Description>
+     <Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcUlEQVQ4jcWTv0tcQRSFvzP7sFgsrMRCxCpFkHXX8m0giJLGIpVd/oMUQQIGFWshjaYKQdKKVjYKaQKyhFeIcRciKYIQXAJJISJiIaJzUuwPVnEhYpHbzdx7vsOcy8g2D6nwIDWQ3MutVH4ke9nSsMynqOuFewGAHsMm+A/Sh+BcjzozCKV0WOYFaNxiEPsC6bvsjRiSLe9XrtqzxfKsxGIbkBTL/RY/gXwX90ObJSuuER1DyG2Dn7RDjPJj4KBDEG2OWwfbPyTeBcJvhdwRMGm0FQByxXRe8NnmY2OYE+xXEvUWQFLe+BLoEwwAp+A5aTQtSHylsZF9m1WJXuzXSANdnnOG/fy6lu0kwi9BrW2MSbxvWt4tNXXDVKxlBwAJ0rMuLndVjPK0q1k7qwAe+le18a6r2W7nXQDFZvMt8NT2erN3ZTwDTBh/aRB0QwyQGDKZ81jL3gCokO4RGEGuxGq2AhBK6S/DNuLbbYD++2/8C7hdnFmlUTSXAAAAAElFTkSuQmCC</Image>
+     <Url type="text/html" template="https://plugins.gradle.org/search?term={searchTerms}"/>
+</OpenSearchDescription>

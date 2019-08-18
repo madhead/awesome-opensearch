@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+     <ShortName>The Central Repository</ShortName>
+     <Description>The Central Repository</Description>
+     <Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGklEQVQ4jY2TP0gVUBTGv3vfvee+IcyURIMIxEEiopyClqDGBiHKcEnfUGBQmINBWYgEGVgQoUVhDSFBWBI1iVF7SFM0NAQphD5fJUHyeH5fg3+TR/rB2c73u+ece46ThHI6f7TQiIA7NIHmuh6MVn0ql+c2Ai4eLlQx4gqjOmguywTQtMCk+zTX9/hhdaEs4MKhueDgcjL1MrpaJhQZNcwEMCFHgzFhhgk9TH746c0dpVXApYOFI4wYoKGJBijiLQO6ht5UfQSAXG5uPw0DTDhGE5g0SUPXs2s737nL++T/pMK0DLU0fWF03UqZscHX27m+1PbOn77kF5uZ1E9DAw0zGc3Xuet75X9UFKZpqFHQnnsT1VNlp7qs0735XQr4RkN+m37XBQBQXI6g4v/MAKCkIr2jIoBKIKACYFwKFzazAwyAMgDj0vD9/O61CkpbACAsPaYofAXgp7BSgYAtAErLZsZV3loLixG2GUBJJu88I4ASEEIA5ARFeJh7f6Yj3x2z9uLR7Yp/vvH40C8ffbFZAf2M8AqA94QfGQEZ0MKID4yoV3TPFzLF8dar+aYV84m7+QOm4rg8RhVdg4Im5dAy0VrP1VVuPzsXaGpj1vXRVEtTaTFhmFlHBuSUZDR8Z0BPJvknYyer11Z5vVq7ZyuV0MOEDiaXpS0dk0yD9Ljxqq2m/DFt1Klbs400DNDglVHny3M1n8vl/QVlLAx2NG+pbAAAAABJRU5ErkJggg==</Image>
+     <Url type="text/html" template="https://search.maven.org/search?q={searchTerms}"/>
+</OpenSearchDescription>
