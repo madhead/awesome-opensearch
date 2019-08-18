@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?> 
+<?xml version="1.0" encoding="UTF-8" ?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-     <ShortName>DeepL (en → ru)</ShortName>
-     <Description>DeepL (en → ru)</Description>
+     <ShortName>DeepL (ru → en)</ShortName>
+     <Description>DeepL (ru → en)</Description>
      <Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABd0lEQVQ4jZ2SPWsUURiFn3N39w9soa3YiOwUae0SQZiIRTAE7WwkfSoJKaxiF0RIk8qPwkosnUEbEQSrEMhdAkGChUVIsVWKJTOZkyKbsNmdkeAp7z3n4dz7vrJNnVrJ/KMAGwCG1TJmn+t8mgS0emkSxBvQ/atW/wCtFDHbrgW0k4dd8LrgOdCurQWV8TsIa2X8cngJaPXSG0Hsgbqjytuy/yA9bgANKvvuaT8/CgBBun0RHtVdKvr5IninAdA9z0Cov9eLTpIuV7BivAkuG0D1AMEyaCugb5i2Fe5J3DR8vRZgTG1JC7IXT3azI8zfKUNdyvALe1/op2Eo8baTzD+VuHW9BpWflP38GfiBxPuRbyp82aBydRAUBsD5JKSXnSTdQ1poeNqgggP4v0X6AGH1yiKNq5OkM8Br0Oxk2niujPn38bOpPyhivlPEfM6wxKjmhRT0e9LfOMYyZp9auAesAcdNvn/uwTDmwyJmr4A7tj9iqknPGagRmOlWsMXeAAAAAElFTkSuQmCC</Image>
-     <Url type="text/html" template="https://www.deepl.com/translator#en/ru/{searchTerms}"/>
+     <Url type="text/html" template="https://www.deepl.com/translator#ru/en/{searchTerms}"/>
 </OpenSearchDescription>
